@@ -4,8 +4,7 @@ This document provides a flowchart of the LS_ActiveDirectory_Lib LotusScript lib
 
 ## Main Connection Flow
 
-```mermaid
-flowchart TDN
+flowchart TD
     start[Start] --> init[Initialize Variables]
     init --> setDomain[Set Domain Name]
     setDomain --> connect{Connect to AD}
@@ -14,7 +13,6 @@ flowchart TDN
     isRODC -->|No| connected[Connected to AD]
     reconnect --> connected
     connected --> end[End]
-```
 
 ## AD Connection Details
 
