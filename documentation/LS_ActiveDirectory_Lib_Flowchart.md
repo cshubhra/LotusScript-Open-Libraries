@@ -13,7 +13,7 @@ flowchart TD
     isRODC -->|Yes| reconnect[Reconnect to RWDC]
     isRODC -->|No| connected[Connected to AD]
     reconnect --> connected
-    connected --> end[End]
+    connected --> finish[Finish]
 ```
 ## AD Connection Details
 
