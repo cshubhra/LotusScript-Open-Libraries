@@ -5,7 +5,7 @@ This document provides a flowchart of the LS_ActiveDirectory_Lib LotusScript lib
 ## Main Connection Flow
 
 ```mermaid
-flowchart TD	N
+flowchart TDN
     start[Start] --> init[Initialize Variables]
     init --> setDomain[Set Domain Name]
     setDomain --> connect{Connect to AD}
